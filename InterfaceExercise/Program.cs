@@ -81,15 +81,15 @@ namespace InterfaceExercise
             Console.WriteLine($"Comes with doors: {myCar.HasDoors}");
             Console.WriteLine($"Low clearance: {myCar.HasLowClearance}\n");
 
-            Console.WriteLine($"This {myTruck.ManufacturerName} {myTruck.ModelName} was made in {myTruck.Country} and comes with {myTruck.NumWheels} wheels  and a {myTruck.BedSize} bed.");
+            Console.WriteLine($"This {myTruck.ManufacturerName} {myTruck.ModelName} was made in {myTruck.Country} and comes with {myTruck.NumWheels} wheels and a {myTruck.BedSize} bed.");
             Console.WriteLine($"Capable of driving: {myTruck.CanDrive}");
             Console.WriteLine($"Comes with doors: {myTruck.HasDoors}");
             Console.WriteLine($"Has towing capabilities: {myTruck.CanTow}\n");
 
-            Console.WriteLine($"This {mySUV.ManufacturerName} {mySUV.ModelName} was made in {mySUV.Country} and comes with {mySUV.NumWheels} wheels and a {mySUV.CargoSize} cargo space.");
+            Console.WriteLine($"This {mySUV.ManufacturerName} {mySUV.ModelName} was made in {mySUV.Country} and comes with {mySUV.NumWheels} wheels and {mySUV.CargoSize} cargo space.");
             Console.WriteLine($"Capable of driving: {mySUV.CanDrive}");
             Console.WriteLine($"Comes with doors: {mySUV.HasDoors}");
-            Console.WriteLine($"Has rear wipers: {mySUV.HasRearWipers}\n");
+            Console.WriteLine($"Has rear wipers: {mySUV.HasRearWipers}");
         }
     }
 }
